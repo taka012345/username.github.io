@@ -1,15 +1,42 @@
-h1{
-    color:red;
+.container{
+    margin:20px;
 }
 
-@media(max-width: 1000px){
-    h1{
-        color:blue;
+.item{
+    width:25%;
+    float:left;
+}
+
+.item-box{
+    height:100px;
+    margin-bottom:20px;
+}
+
+.green{
+    background-color:green;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+@media(max-width:1000px){
+    .item{
+        width:50%;
     }
 }
 
 @media(max-width:670px){
-    h1{
-        color:green;
+    .item{
+        width:100%;
     }
 }
+    
