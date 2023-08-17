@@ -3,7 +3,7 @@ $(function() {
   $('img').fadeOut(1500);
   
   // 以下で、slideUpメソッドを用いて<p>要素を隠してください
-  $('p').slideUp(2500);
+  $('p').slideUp(3500);
   
 });
 
