@@ -1,9 +1,10 @@
 $(function() {
-  // 以下で、fadeOutメソッドを用いて<img>要素を隠してください
-  $('img').fadeOut(3500);
-  
-  // 以下で、slideUpメソッドを用いて<p>要素を隠してください
-  $('p').slideUp(5500);
-  
+  $('#second-btn').click(function() {
+    // 「.active」要素からactiveクラスを取り除いてください
+    $('.active').removeClass('active');
+    
+    // 2つ目の「.slide」要素にactiveクラスをつけてください
+    $('.slide').eq(1).addClass('active');
+    
+  });
 });
-
