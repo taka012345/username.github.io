@@ -25,6 +25,16 @@ body {
     text-decoration: none;
   }
 
+  /* h2にバックグラウンドカラーと左右のマージンを設定 */
+  h2 {
+    background-color: #f0f0f0;  /* 背景色を薄いグレーに */
+    padding: 10px;              /* 内側の余白を設定 */
+    margin-left: 20px;           /* 左側のマージンを設定 */
+    margin-right: 20px;          /* 右側のマージンを設定 */
+    border-radius: 5px;          /* 角を少し丸める */
+  }
+
+
   .content {
     margin-left: 40px;
     margin-right: 40px;
