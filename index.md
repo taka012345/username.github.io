@@ -17,7 +17,7 @@ title: ホーム
 
 ## 目次
 
-1. ターミナルを開く：
+1. ターミナを開く：
     * アプリケーション → ユーティリティ → ターミナル を選択します。
 2. Homebrewのインストール：
     * 次のコマンドをターミナルに入力します：bashコードをコピーする/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
