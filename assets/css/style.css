@@ -29,6 +29,12 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
+
+  main {
+    max-width: 1200px; /* 最大幅を制限 */
+    margin: 0 auto;    /* 自動的に左右の中央揃え */
+  }
+  
   
   footer {
     text-align: center;
