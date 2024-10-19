@@ -1,57 +1,61 @@
+/* 全体のフォントと背景色 */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 1rem;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-  /* h2にバックグラウンドカラーと左右のマージンを設定 */
-  h2 {
-    background-color: #f0f0f0;  /* 背景色を薄いグレーに */
-    padding: 10px;              /* 内側の余白を設定 */
-    margin-left: 20px;           /* 左側のマージンを設定 */
-    margin-right: 20px;          /* 右側のマージンを設定 */
-    border-radius: 5px;          /* 角を少し丸める */
-  }
+/* ヘッダーのスタイル */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
 
+/* ナビゲーションメニューのスタイル */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
 
-  .content {
-    margin-left: 100px !important;
-    margin-right: 100px !important;
-  }
-  
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
 
-  main {
-    max-width: 1200px; /* 最大幅を制限 */
-    margin: 0 auto;    /* 自動的に左右の中央揃え */
-  }
-  
-  
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    margin-top: 2rem;
-  }
-  
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* コンテンツ領域のスタイル */
+.content {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* フッターのスタイル */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
