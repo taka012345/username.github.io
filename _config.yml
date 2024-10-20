@@ -1,6 +1,6 @@
 title: My Jekyll Site
 description: > # Markdown対応の説明
   これはJekyllで作成したウェブサイトです。
-baseurl: "" # サブディレクトリでホストする場合のみ指定
-url: "https://your-site.github.io" # サイトのURL
+baseurl: "username.github.io" # サブディレクトリでホストする場合のみ指定
+url: "https://https://taka012345.github.io/username.github.io/" # サイトのURL
 theme: minima # 既存のテーマを使用する場合
